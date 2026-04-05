@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title data-i18n="articles.209.title">Brandspace Legal — Blog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: { brand: { navy: "#1e3a8a", blue: "#1e40af", cta: "#b45309" } },
+            fontFamily: {
+              display: ['"EB Garamond"', "Georgia", "serif"],
+              sans: ['"Lato"', "system-ui", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body class="font-sans antialiased text-slate-900 bg-slate-50">
+    <header class="border-b border-slate-200 bg-white">
+      <div class="mx-auto flex max-w-4xl flex-wrap items-center justify-between gap-4 px-4 py-4 md:px-8">
+        <a href="../index.html" class="font-display text-lg font-semibold text-brand-navy">Brandspace Legal</a>
+        <nav class="flex flex-wrap gap-4 text-sm font-medium text-slate-600" aria-label="Article">
+          <a href="../index.html#blog" class="cursor-pointer hover:text-brand-cta" data-i18n="nav.blog">Blog</a>
+          <a href="../index.html#contact" class="cursor-pointer hover:text-brand-cta" data-i18n="nav.consultation">Free consultation</a>
+          <button type="button" class="lang-btn cursor-pointer rounded px-2 text-xs font-semibold uppercase" data-lang="en">EN</button>
+          <button type="button" class="lang-btn cursor-pointer rounded px-2 text-xs font-semibold uppercase" data-lang="ru">RU</button>
+          <button type="button" class="lang-btn cursor-pointer rounded px-2 text-xs font-semibold uppercase" data-lang="ua">UA</button>
+        </nav>
+      </div>
+    </header>
+    <main class="mx-auto max-w-3xl px-4 py-12 md:px-8 md:py-16">
+      <article class="rounded-2xl border border-slate-200 bg-white p-8 shadow-sm md:p-10">
+        <p class="text-sm font-medium uppercase tracking-wide text-brand-cta" data-i18n="articles.209.date"></p>
+        <h1 class="mt-2 font-display text-3xl font-bold text-brand-navy md:text-4xl" data-i18n="articles.209.title"></h1>
+        <div class="prose prose-slate mt-8 max-w-none text-slate-700" data-i18n-html="articles.209.body"></div>
+      </article>
+      <p class="mt-8 text-center">
+        <a href="../index.html#blog" class="cursor-pointer text-sm font-semibold text-brand-cta hover:underline" data-i18n="blog.back">Back to all articles</a>
+      </p>
+    </main>
+    <footer class="border-t border-slate-200 bg-slate-900 py-8 text-center text-sm text-slate-400">
+      <p data-i18n="footer.rights"></p>
+    </footer>
+    <script>
+      window.__TAWK_PROPERTY_ID__ = 'YOUR_PROPERTY_ID';
+      window.__TAWK_WIDGET_ID__ = 'YOUR_WIDGET_ID';
+    </script>
+    <script src="../js/tawk.js"></script>
+    <script src="../js/i18n.js" data-base="../"></script>
+    <script src="../js/main.js"></script>
+  </body>
+</html>

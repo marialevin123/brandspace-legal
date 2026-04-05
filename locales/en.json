@@ -1,0 +1,198 @@
+{
+  "meta": {
+    "title": "Brandspace Legal — Trademark registration in the USA"
+  },
+  "nav": {
+    "about": "About Us",
+    "services": "Services",
+    "feedback": "Feedback",
+    "faq": "FAQ",
+    "contacts": "Contacts",
+    "blog": "Blog",
+    "consultation": "Free consultation"
+  },
+  "hero": {
+    "tagline": "Trademark registration in the USA",
+    "title": "Protect your brand across borders",
+    "subtitle": "D&L IP Group — 20 years of cross-border brand protection for the US, Ukraine, and Europe.",
+    "ctaPrimary": "Get a free consultation",
+    "ctaSecondary": "Explore services",
+    "phoneUsLabel": "USA",
+    "phoneUaLabel": "Ukraine",
+    "pill1": "Brand protection strategy in the United States",
+    "pill2": "Amazon Brand Registry enrollment",
+    "pill3": "Resolving conflicts with competitors",
+    "pill4": "Preventing marketplace listing hijacking"
+  },
+  "about": {
+    "title": "Who we are",
+    "body": "D&L IP Group has 20 years of experience in cross-border brand protection, specifically covering the Ukrainian and US markets, with offices on both sides of the ocean. We serve entrepreneurs entering the US marketplace and those looking to establish a presence in Europe. Our extensive practice allows us to accommodate tight budgets and offer ready solutions for most frequently occurring situations. We also welcome unique cases and are ready to support the business community wherever issues arise.",
+    "ctaBold": "Get a free consultation for up to 15 minutes — our experts will help you determine your next step toward brand protection.",
+    "partnerLead": "Leadership",
+    "partnerName": "Diana",
+    "partnerRole": "Partner, D&L IP Group · Brandspace Legal",
+    "partnerAlt": "Professional portrait of Diana, partner at D&L IP Group and Brandspace Legal, wearing a navy blazer.",
+    "statYears": "Years in practice",
+    "statMarkets": "Key markets",
+    "statOffices": "Offices"
+  },
+  "why": {
+    "title": "Why brand protection matters when entering any market",
+    "card1Title": "Marketplaces and enforcement",
+    "card1": "About 70% of sellers on marketplaces encounter bad-faith competition, listing hijacking, trolling, and other infringement. Only with officially recorded trademark rights can you submit claims and gain support from marketplace administration. Amazon Brand Registry benefits — including listing positioning — typically require a trademark application or registration.",
+    "card2Title": "Clearance and risk",
+    "card2": "Even good-faith entrepreneurs risk inadvertent infringement without proper trademark clearance — leading to claims, lost time and money, distraction from growth, and sometimes a full rebrand. Our Trademark Clearance Search helps manage those risks and avoid negative outcomes where possible.",
+    "card3Title": "USPTO registration as an asset",
+    "card3": "Trademark registration with the USPTO gives you tools to confront infringers and the upper hand in brand-related disputes. A registered mark is also a business asset you can sell or license, adding measurable value."
+  },
+  "services": {
+    "title": "Services",
+    "subtitle": "Transparent pricing and end-to-end support from application to enforcement.",
+    "order": "Request this service",
+    "expandHint": "Tap to see details and pricing",
+    "s1Title": "Applying to register a trademark in the USA",
+    "s1Intro": "Our service includes:",
+    "s1i1": "Preliminary consultation",
+    "s1i2": "Search for conflicting registrations (available separately for $150)",
+    "s1i3": "Development of a protection strategy within your brand portfolio",
+    "s1i4": "Formation of a list of goods and services for reduced-fee filing",
+    "s1i5": "Preparation of evidence of use in the USA (specimen of use)",
+    "s1i6": "Responses to USPTO office actions",
+    "s1Price": "$500 for our service + $250 government fee per class of goods and services",
+    "s2Title": "Responding to office actions or provisional refusal from the USPTO",
+    "s2Body": "Filing a response to an office action on a national application, or to a provisional refusal from the USPTO following examination of an extension of an international registration to the United States under the Madrid Protocol.",
+    "s2Price": "From $300 (depending on complexity)",
+    "s3Title": "Statement of use and suitable evidence for the USPTO",
+    "s3Body": "Preparing and filing documents in accordance with USPTO requirements.",
+    "s3Price": "$300 for our service",
+    "s4Title": "Maintaining your trademark registration (5th and each 10th year)",
+    "s4Body": "Filing required declarations (Sections 71, 8, 9) and renewals between years 5–6 and 9–10 of registration validity.",
+    "s4Price": "$450 for our service",
+    "s5Title": "Recordal of the sale of trademark rights in the USA",
+    "s5Body": "Transfer ownership or change the name on your application or registration — we help you do it safely.",
+    "s5Price": "$350 for our service + $50 for each additional trademark",
+    "s6Title": "Resolving conflicts with competitors",
+    "s6Intro": "USPTO proceedings and related tools:",
+    "s6i1": "Letter of Protest: $350 for our service + $50 official fee",
+    "s6i2": "Cancellation action: $750 for our service + $600 official fee",
+    "s6i3": "Opposition to a published application: $750 for our service + $600 official fee",
+    "s6i4": "Expungement, re-examination, coexistence negotiations: $750 for our service + $650 official fee",
+    "s7Title": "Amazon Brand Registry and related services",
+    "s7Intro": "Amazon Brand Registry helps protect your brand on Amazon. Our service includes:",
+    "s7i1": "Listing preparation: error 5665, GTIN exemption, product photos for use evidence and Brand Registry",
+    "s7i2": "Linking listings, brand adjustments, Brand Dashboard, Flatfile restarts, rights transfers, A+ Content, blocking hijackers",
+    "s7Price": "$500 for our service",
+    "s8Title": "Trademark registration in China, EU, UK, and Ukraine",
+    "s8Intro": "Trademark registration supports marketing, selling, and manufacturing under your brand. We help you register where global trade takes you.",
+    "s8i1": "China: $700 for our service",
+    "s8i2": "European Union: $400 for our service + €850 for one class + €50 per additional class",
+    "s8i3": "United Kingdom: $400 for our service + $200 fee per class",
+    "s8i4": "Ukraine: $150 for our service + $100 fee per class"
+  },
+  "testimonials": {
+    "title": "Client feedback",
+    "t1Name": "Daniel Shmatkov",
+    "t1Role": "4B Solutions for Business (USA, Ukraine)",
+    "t1Quote": "For three years we have successfully cooperated in protecting brands and interests of Amazon entrepreneurs in the United States. D&L IP Group is a synthesis of quality, speed, and trust.",
+    "t2Name": "Yana Kondratyuk",
+    "t2Role": "Patent attorney (Ukraine)",
+    "t2Quote": "For several years we have worked with D&L IP Group to protect our clients' US trademarks. Cooperation is always fast, professional, and leads to the desired results.",
+    "t3Name": "Alexander",
+    "t3Role": "Consulting agency, patent attorney (USA)",
+    "t3Quote": "D&L IP Group is a professional service from trademarks to patents. It is convenient to receive comprehensive support. We have cooperated successfully for many years."
+  },
+  "faq": {
+    "title": "FAQ",
+    "intro": "Prefer to talk? Call us at +1 (347) 512-5214 for a free consultation — up to 15 minutes. Our experts will answer your questions and help you plan your next step.",
+    "q1": "How much does trademark registration cost in the USA?",
+    "a1": "Official fees depend on the number of classes; the base fee is $250 per class. We offer a free consultation (up to 15 minutes) on total costs for US registration.",
+    "q2": "How do you register a trademark in the USA?",
+    "a2": "Applications are filed online with the USPTO. You provide entity details, a list of goods/services, specimen of use and first-use date where applicable, and appoint US counsel. Evidence of use or a bona fide intent to use is required. Registration can take up to about 12 months; post-registration, declarations of use (years 5–6) and renewal (years 9–10) are required. After filing, you can often begin Amazon Brand Registry enrollment.",
+    "q3": "What marks cannot be registered in the US?",
+    "a3": "Marks that are identical or confusingly similar to prior marks; merely descriptive; ornamental or purely functional; deceptive; immoral; or containing state insignia or similar restricted matter. We prepare and file complete packages in line with legal requirements.",
+    "q4": "When should you register a trademark in the USA?",
+    "a4": "When you plan a long-term market presence and want a clear legal position to reduce conflict risk and strengthen marketplace protection; when you need to stop unfair competitor conduct or respond to claims; when you may sell a business or franchise where formal transfer requires USPTO registration; or when you want the brand as an intangible asset or royalty structure.",
+    "q5": "What do you get when working with D&L IP Group?",
+    "a5": "Personal US representation for trademark matters without unnecessary intermediaries. We do not only file applications — we partner on substance throughout your US activities, including disputes. You benefit from 20 years of experience and flexible budgets and currencies. From first contact, we can deliver a protection strategy within 24 hours, optimize goods/services lists for reduced fees, prepare use evidence, and file directly with the USPTO.",
+    "cta": "Free consultation"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Updates on US trademarks, Amazon Brand Registry, and USPTO practice.",
+    "readMore": "Read more",
+    "back": "Back to all articles",
+    "p226Title": "The pitfalls of Amazon Brand Registry — don't step on them",
+    "p226Excerpt": "Brand Registry offers powerful benefits, but there are pitfalls every seller should know before enrolling.",
+    "p225Title": "USPTO Post Registration Audit Program",
+    "p225Excerpt": "Important for Amazon veterans: what happens when marks age and audits arrive.",
+    "p207Title": "Trademark Modernization Act (United States)",
+    "p207Excerpt": "New tools to address unused marks and reduce conflicts for good-faith brands.",
+    "p196Title": "Should Ukrainians register a trademark in the USA?",
+    "p196Excerpt": "Why growing trade with the US often makes US trademark protection a smart move.",
+    "p210Title": "New US trademark law",
+    "p210Excerpt": "Tools to challenge bad-faith filings and clear blocking registrations.",
+    "p209Title": "USPTO identity verification",
+    "p209Excerpt": "What changed for electronic filers and required identification steps.",
+    "p208Title": "US electronic trademark registration certificates",
+    "p208Excerpt": "How the USPTO now delivers certificates and how to obtain paper copies."
+  },
+  "contact": {
+    "title": "Contacts",
+    "subtitle": "Offices in Kyiv and the United States. Weekdays 9:00–18:00 (local time).",
+    "kyivTitle": "Office in Kyiv",
+    "usaTitle": "Office in USA",
+    "hoursEt": "Weekdays 9:00–18:00 (ET)",
+    "hoursLocal": "Weekdays 9:00–18:00",
+    "emailLabel": "Email",
+    "formTitle": "Request a consultation",
+    "formName": "Name",
+    "formEmail": "Email",
+    "formPhone": "Phone",
+    "formMessage": "How can we help?",
+    "formSubmit": "Send request",
+    "formNote": "This form is for demonstration only — connect email or a form backend to receive submissions.",
+    "formSuccess": "Thank you. We will contact you shortly.",
+    "mapNote": "Kyiv, Ukraine · United States (ET)"
+  },
+  "footer": {
+    "rights": "© 2012–2026 D&L IP Group. All rights reserved.",
+    "credit": "Website refresh for Brandspace Legal."
+  },
+  "articles": {
+    "226": {
+      "title": "The pitfalls of Amazon Brand Registry — don't step on them",
+      "date": "Insights",
+      "body": "<p>Amazon Brand Registry is Amazon's official program where brand owners obtain benefits including protection from bad-faith competitors and tools that support sales growth. However, there are pitfalls that many sellers encounter.</p><p>Before you enroll, confirm that your trademark matches Amazon's eligibility rules, that your applicant details align with Brand Registry records, and that your specimens and listings are consistent. Misalignment between the USPTO record and your seller account is a frequent source of delays and appeals.</p><p>Our team helps you prepare listings, resolve error codes such as 5665, obtain GTIN exemptions where appropriate, and align evidence of use with both USPTO and Amazon requirements.</p>"
+    },
+    "225": {
+      "title": "USPTO Post Registration Audit Program",
+      "date": "Insights",
+      "body": "<p>For experienced Amazon sellers, trademarks are often registered primarily to access Brand Registry. If a business pivots or a mark is underused, maintenance obligations still apply.</p><p>When a registration reaches certain anniversaries, the USPTO may audit use claims across goods and services. Weak or inconsistent specimens can jeopardize the registration.</p><p>We help clients maintain accurate records, file compliant declarations, and respond to audits with defensible evidence.</p>"
+    },
+    "207": {
+      "title": "Modernized US trademark law (Trademark Modernization Act)",
+      "date": "Insights",
+      "body": "<p>Reforms effective in recent years added new tools for entrepreneurs in or entering the US market to address conflicts with marks that are not in genuine use.</p><p>Procedures such as expungement and re-examination can remove obstacles created by unused registrations, supporting good-faith brand owners who need clearance.</p><p>We analyze each situation to choose the most efficient USPTO pathway — opposition, cancellation, expungement, or negotiated coexistence.</p>"
+    },
+    "196": {
+      "title": "Should Ukrainians register a trademark in the USA?",
+      "date": "Insights",
+      "body": "<p>As Ukraine integrates further into the global economy, trade with the United States continues to grow. Many Ukrainian businesses sell directly to US consumers through marketplaces or their own stores.</p><p>US trademark registration strengthens enforcement on Amazon and other platforms, supports advertising and distribution agreements, and reduces rebranding risk if a conflicting mark appears.</p><p>We routinely assist Ukrainian companies with US clearance, filing strategy, and Brand Registry alignment.</p>"
+    },
+    "210": {
+      "title": "New US trademark law — practical impact",
+      "date": "Insights",
+      "body": "<p>Updated US trademark practice expands ways to challenge bad-faith applications and to cancel or narrow registrations that block legitimate businesses but are not supported by real use.</p><p>These tools can reduce the time and cost of clearing a path to registration compared with traditional litigation alone.</p><p>We map the facts of your case to the appropriate administrative remedy and manage USPTO proceedings through resolution.</p>"
+    },
+    "209": {
+      "title": "USPTO identity verification for filers",
+      "date": "Insights",
+      "body": "<p>The USPTO has strengthened identity verification for users of its electronic filing systems to reduce fraud and unauthorized filings.</p><p>Filers may need to complete identity confirmation steps before accessing certain features. Planning ahead avoids last-minute filing delays.</p><p>We guide clients through account setup and filing workflows so submissions remain compliant and timely.</p>"
+    },
+    "208": {
+      "title": "US electronic trademark registration certificates",
+      "date": "Insights",
+      "body": "<p>The USPTO now issues trademark registration certificates electronically by default. Official PDFs can be downloaded from the registry record.</p><p>Paper certificates may be available for an additional fee where a physical document is required for banking, customs, or corporate records.</p><p>We ensure clients receive and archive the correct official documents for their compliance and marketplace needs.</p>"
+    }
+  }
+}

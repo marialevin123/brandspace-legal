@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title data-i18n="meta.title">Brandspace Legal — Trademark registration in the USA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: { navy: "#1e3a8a", blue: "#1e40af", cta: "#b45309", gold: "#d4a853" },
+            },
+            fontFamily: {
+              display: ['"EB Garamond"', "Georgia", "serif"],
+              sans: ['"Lato"', "system-ui", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preload" as="image" href="images/brandspace-hero-bg.png" />
+  </head>
+  <body class="font-sans antialiased text-slate-900 bg-slate-50">
+    <a
+      href="#main"
+      class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-[100] focus:rounded focus:bg-white focus:px-4 focus:py-2 focus:shadow-lg"
+      >Skip to content</a
+    >
+
+    <header>
+      <nav
+        id="navbar"
+        class="navbar relative mx-auto max-w-7xl rounded-2xl border border-slate-200/60 bg-white/70 px-4 shadow-sm md:px-6"
+        aria-label="Primary"
+      >
+        <div class="flex items-center justify-between gap-4 py-3 md:py-4">
+          <a
+            href="#hero"
+            class="group flex cursor-pointer items-center gap-2 font-display text-xl font-semibold text-brand-navy transition-colors duration-200 hover:text-brand-blue"
+          >
+            <svg class="h-9 w-9 shrink-0 text-brand-cta" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+              <path
+                d="M16 2L4 8v8c0 7 5.2 12.8 12 14 6.8-1.2 12-7 12-14V8L16 2z"
+                stroke="currentColor"
+                stroke-width="1.5"
+                fill="rgb(30 58 138 / 0.08)"
+              />
+              <path d="M11 16h10M16 11v10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+            </svg>
+            <span>Brandspace <span class="text-brand-cta">Legal</span></span>
+          </a>
+
+          <button
+            type="button"
+            id="menu-toggle"
+            class="inline-flex flex-col justify-center gap-1.5 rounded-lg p-2 text-slate-800 md:hidden"
+            aria-controls="mobile-menu"
+            aria-expanded="false"
+            aria-label="Open menu"
+          >
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </button>
+
+          <div
+            id="mobile-menu"
+            class="navbar-menu absolute left-0 right-0 top-full z-40 mt-2 flex-col gap-1 rounded-xl border border-slate-200 bg-white p-4 shadow-lg md:static md:mt-0 md:flex-row md:items-center md:gap-1 md:border-0 md:bg-transparent md:p-0 md:shadow-none"
+          >
+            <a
+              href="#about"
+              class="cursor-pointer rounded-lg px-3 py-2 text-sm font-medium text-slate-700 transition-colors duration-200 hover:bg-slate-100 hover:text-brand-navy"
+              data-i18n="nav.about"
+              >About Us</a
+            >
+            <a
+              href="#services"
+              class="cursor-pointer rounded-lg px-3 py-2 text-sm font-medium text-slate-700 transition-colors duration-200 hover:bg-slate-100 hover:text-brand-navy"
+              data-i18n="nav.services"
+              >Services</a
+            >
+            <a
+              href="#testimonials"
+              class="cursor-pointer rounded-lg px-3 py-2 text-sm font-medium text-slate-700 transition-colors duration-200 hover:bg-slate-100 hover:text-brand-navy"
+              data-i18n="nav.feedback"
+              >Feedback</a
+            >
+            <a
+              href="#faq"
+              class="cursor-pointer rounded-lg px-3 py-2 text-sm font-medium text-slate-700 transition-colors duration-200 hover:bg-slate-100 hover:text-brand-navy"
+              data-i18n="nav.faq"
+              >FAQ</a
+            >
+            <a
+              href="#contact"
+              class="cursor-pointer rounded-lg px-3 py-2 text-sm font-medium text-slate-700 transition-colors duration-200 hover:bg-slate-100 hover:text-brand-navy"
+              data-i18n="nav.contacts"
+              >Contacts</a
+            >
+            <a
+              href="#blog"
+              class="cursor-pointer rounded-lg px-3 py-2 text-sm font-medium text-slate-700 transition-colors duration-200 hover:bg-slate-100 hover:text-brand-navy"
+              data-i18n="nav.blog"
+              >Blog</a
+            >
+            <div class="my-2 h-px bg-slate-200 md:mx-2 md:my-0 md:h-6 md:w-px md:bg-slate-200" aria-hidden="true"></div>
+            <div class="flex flex-wrap items-center gap-1 md:gap-0">
+              <button
+                type="button"
+                class="lang-btn cursor-pointer rounded-lg px-2.5 py-1 text-xs font-semibold uppercase tracking-wide text-slate-600 transition-colors duration-200 hover:bg-slate-100"
+                data-lang="en"
+              >
+                EN
+              </button>
+              <button
+                type="button"
+                class="lang-btn cursor-pointer rounded-lg px-2.5 py-1 text-xs font-semibold uppercase tracking-wide text-slate-600 transition-colors duration-200 hover:bg-slate-100"
+                data-lang="ru"
+              >
+                RU
+              </button>
+              <button
+                type="button"
+                class="lang-btn cursor-pointer rounded-lg px-2.5 py-1 text-xs font-semibold uppercase tracking-wide text-slate-600 transition-colors duration-200 hover:bg-slate-100"
+                data-lang="ua"
+              >
+                UA
+              </button>
+            </div>
+            <a
+              href="#contact"
+              class="mt-2 cursor-pointer rounded-lg bg-brand-cta px-4 py-2.5 text-center text-sm font-semibold text-white shadow-sm transition-colors duration-200 hover:bg-amber-800 md:mt-0 md:ml-2"
+              data-i18n="nav.consultation"
+              >Free consultation</a
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section id="hero" class="hero text-white" aria-labelledby="hero-heading">
+        <div class="hero-backdrop" aria-hidden="true"></div>
+        <div class="hero-content mx-auto flex max-w-7xl flex-col gap-10 px-4 pb-24 pt-36 md:flex-row md:items-center md:justify-between md:px-8 lg:pt-40">
+          <div class="max-w-2xl reveal-on-scroll">
+            <p class="mb-3 text-sm font-semibold uppercase tracking-widest text-amber-200/90" data-i18n="hero.tagline">
+              Trademark registration in the USA
+            </p>
+            <h1 id="hero-heading" class="hero-title font-display font-bold text-white" data-i18n="hero.title">
+              Protect your brand across borders
+            </h1>
+            <p class="hero-lead mt-5 text-slate-100" data-i18n="hero.subtitle">
+              D&L IP Group — 20 years of cross-border brand protection.
+            </p>
+            <div class="mt-8 flex flex-wrap gap-3">
+              <a
+                href="#contact"
+                class="cursor-pointer rounded-lg bg-brand-cta px-6 py-3 text-sm font-semibold text-white shadow-lg transition-colors duration-200 hover:bg-amber-800"
+                data-i18n="hero.ctaPrimary"
+                >Get a free consultation</a
+              >
+              <a
+                href="#services"
+                class="cursor-pointer rounded-lg border border-white/40 bg-white/10 px-6 py-3 text-sm font-semibold text-white backdrop-blur-sm transition-colors duration-200 hover:bg-white/20"
+                data-i18n="hero.ctaSecondary"
+                >Explore services</a
+              >
+            </div>
+            <div class="mt-10 flex flex-wrap gap-6 text-sm text-slate-200">
+              <div>
+                <p class="font-semibold text-white" data-i18n="hero.phoneUsLabel">USA</p>
+                <a href="tel:+13475125214" class="cursor-pointer transition-colors hover:text-amber-200">+1 (347) 512 52 14</a>
+              </div>
+              <div>
+                <p class="font-semibold text-white" data-i18n="hero.phoneUaLabel">Ukraine</p>
+                <a href="tel:+380442723369" class="cursor-pointer transition-colors hover:text-amber-200">+38 (044) 272 3369</a>
+              </div>
+            </div>
+          </div>
+          <div class="grid max-w-md flex-1 gap-3 text-sm reveal-on-scroll">
+            <div class="rounded-xl border border-white/20 bg-white/10 px-4 py-3 backdrop-blur-sm">
+              <span data-i18n="hero.pill1">Brand protection strategy in the United States</span>
+            </div>
+            <div class="rounded-xl border border-white/20 bg-white/10 px-4 py-3 backdrop-blur-sm">
+              <span data-i18n="hero.pill2">Amazon Brand Registry enrollment</span>
+            </div>
+            <div class="rounded-xl border border-white/20 bg-white/10 px-4 py-3 backdrop-blur-sm">
+              <span data-i18n="hero.pill3">Resolving conflicts with competitors</span>
+            </div>
+            <div class="rounded-xl border border-white/20 bg-white/10 px-4 py-3 backdrop-blur-sm">
+              <span data-i18n="hero.pill4">Preventing marketplace listing hijacking</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="border-t border-slate-200 bg-white py-20 md:py-28" aria-labelledby="about-heading">
+        <div class="mx-auto max-w-7xl px-4 md:px-8">
+          <div class="grid gap-12 lg:grid-cols-12 lg:items-start">
+            <div class="reveal-on-scroll lg:col-span-7">
+              <h2 id="about-heading" class="font-display text-3xl font-bold text-brand-navy md:text-4xl" data-i18n="about.title">
+                Who we are
+              </h2>
+              <p class="mt-6 text-lg leading-relaxed text-slate-600" data-i18n="about.body"></p>
+              <p class="mt-4 font-medium text-slate-800" data-i18n="about.ctaBold"></p>
+            </div>
+            <div class="reveal-on-scroll space-y-4 lg:col-span-5">
+              <figure
+                class="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-md ring-1 ring-slate-900/5"
+              >
+                <div class="border-b border-slate-100 bg-slate-50/90 px-4 py-2.5">
+                  <span
+                    class="text-xs font-semibold uppercase tracking-wider text-brand-cta"
+                    data-i18n="about.partnerLead"
+                    >Leadership</span
+                  >
+                </div>
+                <div class="aspect-[3/4] w-full overflow-hidden bg-slate-200 sm:aspect-[4/5]">
+                  <img
+                    src="images/partner-portrait.png"
+                    width="600"
+                    height="750"
+                    class="h-full w-full object-cover object-top"
+                    loading="lazy"
+                    decoding="async"
+                    data-i18n-alt="about.partnerAlt"
+                    alt="Professional portrait of Diana, partner at D&L IP Group and Brandspace Legal."
+                  />
+                </div>
+                <figcaption class="border-t border-slate-100 bg-white px-4 py-3 text-center">
+                  <span class="block font-display text-lg font-semibold text-brand-navy" data-i18n="about.partnerName"
+                    >Diana</span
+                  >
+                  <span class="mt-0.5 block text-sm text-slate-600" data-i18n="about.partnerRole"></span>
+                </figcaption>
+              </figure>
+              <div class="grid gap-4 sm:grid-cols-3 lg:grid-cols-1">
+              <div class="rounded-2xl border border-slate-200 bg-slate-50 p-6 text-center transition-shadow duration-200 hover:shadow-md">
+                <p class="font-display text-4xl font-bold text-brand-cta">20+</p>
+                <p class="mt-1 text-sm text-slate-600" data-i18n="about.statYears">Years in practice</p>
+              </div>
+              <div class="rounded-2xl border border-slate-200 bg-slate-50 p-6 text-center transition-shadow duration-200 hover:shadow-md">
+                <p class="font-display text-4xl font-bold text-brand-cta">2</p>
+                <p class="mt-1 text-sm text-slate-600" data-i18n="about.statMarkets">Key markets</p>
+              </div>
+              <div class="rounded-2xl border border-slate-200 bg-slate-50 p-6 text-center transition-shadow duration-200 hover:shadow-md">
+                <p class="font-display text-4xl font-bold text-brand-cta">2</p>
+                <p class="mt-1 text-sm text-slate-600" data-i18n="about.statOffices">Offices</p>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="why" class="section-textured bg-slate-50 py-20 md:py-28" aria-labelledby="why-heading">
+        <div class="mx-auto max-w-7xl px-4 md:px-8">
+          <h2 id="why-heading" class="reveal-on-scroll max-w-3xl font-display text-3xl font-bold text-brand-navy md:text-4xl" data-i18n="why.title">
+            Why brand protection matters
+          </h2>
+          <div class="mt-12 grid gap-8 md:grid-cols-3">
+            <article class="reveal-on-scroll rounded-2xl border border-slate-200 bg-white p-8 shadow-sm transition-shadow duration-200 hover:shadow-md">
+              <span class="font-display text-5xl font-bold text-brand-cta/40">01</span>
+              <h3 class="mt-4 font-display text-xl font-semibold text-brand-navy" data-i18n="why.card1Title"></h3>
+              <p class="mt-3 text-slate-600" data-i18n="why.card1"></p>
+            </article>
+            <article class="reveal-on-scroll rounded-2xl border border-slate-200 bg-white p-8 shadow-sm transition-shadow duration-200 hover:shadow-md">
+              <span class="font-display text-5xl font-bold text-brand-cta/40">02</span>
+              <h3 class="mt-4 font-display text-xl font-semibold text-brand-navy" data-i18n="why.card2Title"></h3>
+              <p class="mt-3 text-slate-600" data-i18n="why.card2"></p>
+            </article>
+            <article class="reveal-on-scroll rounded-2xl border border-slate-200 bg-white p-8 shadow-sm transition-shadow duration-200 hover:shadow-md">
+              <span class="font-display text-5xl font-bold text-brand-cta/40">03</span>
+              <h3 class="mt-4 font-display text-xl font-semibold text-brand-navy" data-i18n="why.card3Title"></h3>
+              <p class="mt-3 text-slate-600" data-i18n="why.card3"></p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="border-t border-slate-200 bg-white py-20 md:py-28" aria-labelledby="services-heading">
+        <div class="mx-auto max-w-7xl px-4 md:px-8">
+          <div class="reveal-on-scroll max-w-3xl">
+            <h2 id="services-heading" class="font-display text-3xl font-bold text-brand-navy md:text-4xl" data-i18n="services.title">Services</h2>
+            <p class="mt-3 text-lg text-slate-600" data-i18n="services.subtitle"></p>
+            <p class="mt-2 text-sm text-slate-500" data-i18n="services.expandHint"></p>
+          </div>
+          <div class="mt-12 grid gap-6 lg:grid-cols-2">
+            <article class="service-card reveal-on-scroll cursor-pointer rounded-2xl bg-slate-50 p-6 md:p-8">
+              <h3 class="font-display text-xl font-semibold text-brand-navy" data-i18n="services.s1Title"></h3>
+              <p class="mt-2 text-sm font-medium text-brand-cta" data-i18n="services.s1Price"></p>
+              <div class="service-details">
+                <p class="mt-4 text-slate-600" data-i18n="services.s1Intro"></p>
+                <ul class="mt-3 list-disc space-y-1 pl-5 text-slate-600">
+                  <li data-i18n="services.s1i1"></li>
+                  <li data-i18n="services.s1i2"></li>
+                  <li data-i18n="services.s1i3"></li>
+                  <li data-i18n="services.s1i4"></li>
+                  <li data-i18n="services.s1i5"></li>
+                  <li data-i18n="services.s1i6"></li>
+                </ul>
+                <a href="#contact" class="mt-4 inline-block cursor-pointer text-sm font-semibold text-brand-cta underline-offset-2 hover:underline" data-i18n="services.order"></a>
+              </div>
+            </article>
+            <article class="service-card reveal-on-scroll cursor-pointer rounded-2xl bg-slate-50 p-6 md:p-8">
+              <h3 class="font-display text-xl font-semibold text-brand-navy" data-i18n="services.s2Title"></h3>
+              <p class="mt-2 text-sm font-medium text-brand-cta" data-i18n="services.s2Price"></p>
+              <div class="service-details">
+                <p class="mt-4 text-slate-600" data-i18n="services.s2Body"></p>
+                <a href="#contact" class="mt-4 inline-block cursor-pointer text-sm font-semibold text-brand-cta underline-offset-2 hover:underline" data-i18n="services.order"></a>
+              </div>
+            </article>
+            <article class="service-card reveal-on-scroll cursor-pointer rounded-2xl bg-slate-50 p-6 md:p-8">
+              <h3 class="font-display text-xl font-semibold text-brand-navy" data-i18n="services.s3Title"></h3>
+              <p class="mt-2 text-sm font-medium text-brand-cta" data-i18n="services.s3Price"></p>
+              <div class="service-details">
+                <p class="mt-4 text-slate-600" data-i18n="services.s3Body"></p>
+                <a href="#contact" class="mt-4 inline-block cursor-pointer text-sm font-semibold text-brand-cta underline-offset-2 hover:underline" data-i18n="services.order"></a>
+              </div>
+            </article>
+            <article class="service-card reveal-on-scroll cursor-pointer rounded-2xl bg-slate-50 p-6 md:p-8">
+              <h3 class="font-display text-xl font-semibold text-brand-navy" data-i18n="services.s4Title"></h3>
+              <p class="mt-2 text-sm font-medium text-brand-cta" data-i18n="services.s4Price"></p>
+              <div class="service-details">
+                <p class="mt-4 text-slate-600" data-i18n="services.s4Body"></p>
+                <a href="#contact" class="mt-4 inline-block cursor-pointer text-sm font-semibold text-brand-cta underline-offset-2 hover:underline" data-i18n="services.order"></a>
+              </div>
+            </article>
+            <article class="service-card reveal-on-scroll cursor-pointer rounded-2xl bg-slate-50 p-6 md:p-8">
+              <h3 class="font-display text-xl font-semibold text-brand-navy" data-i18n="services.s5Title"></h3>
+              <p class="mt-2 text-sm font-medium text-brand-cta" data-i18n="services.s5Price"></p>
+              <div class="service-details">
+                <p class="mt-4 text-slate-600" data-i18n="services.s5Body"></p>
+                <a href="#contact" class="mt-4 inline-block cursor-pointer text-sm font-semibold text-brand-cta underline-offset-2 hover:underline" data-i18n="services.order"></a>
+              </div>
+            </article>
+            <article class="service-card reveal-on-scroll cursor-pointer rounded-2xl bg-slate-50 p-6 md:p-8">
+              <h3 class="font-display text-xl font-semibold text-brand-navy" data-i18n="services.s6Title"></h3>
+              <div class="service-details">
+                <p class="mt-4 text-slate-600" data-i18n="services.s6Intro"></p>
+                <ul class="mt-3 list-disc space-y-1 pl-5 text-slate-600">
+                  <li data-i18n="services.s6i1"></li>
+                  <li data-i18n="services.s6i2"></li>
+                  <li data-i18n="services.s6i3"></li>
+                  <li data-i18n="services.s6i4"></li>
+                </ul>
+                <a href="#contact" class="mt-4 inline-block cursor-pointer text-sm font-semibold text-brand-cta underline-offset-2 hover:underline" data-i18n="services.order"></a>
+              </div>
+            </article>
+            <article class="service-card reveal-on-scroll cursor-pointer rounded-2xl bg-slate-50 p-6 md:p-8">
+              <h3 class="font-display text-xl font-semibold text-brand-navy" data-i18n="services.s7Title"></h3>
+              <p class="mt-2 text-sm font-medium text-brand-cta" data-i18n="services.s7Price"></p>
+              <div class="service-details">
+                <p class="mt-4 text-slate-600" data-i18n="services.s7Intro"></p>
+                <ul class="mt-3 list-disc space-y-1 pl-5 text-slate-600">
+                  <li data-i18n="services.s7i1"></li>
+                  <li data-i18n="services.s7i2"></li>
+                </ul>
+                <a href="#contact" class="mt-4 inline-block cursor-pointer text-sm font-semibold text-brand-cta underline-offset-2 hover:underline" data-i18n="services.order"></a>
+              </div>
+            </article>
+            <article class="service-card reveal-on-scroll cursor-pointer rounded-2xl bg-slate-50 p-6 md:p-8">
+              <h3 class="font-display text-xl font-semibold text-brand-navy" data-i18n="services.s8Title"></h3>
+              <div class="service-details">
+                <p class="mt-4 text-slate-600" data-i18n="services.s8Intro"></p>
+                <ul class="mt-3 list-disc space-y-1 pl-5 text-slate-600">
+                  <li data-i18n="services.s8i1"></li>
+                  <li data-i18n="services.s8i2"></li>
+                  <li data-i18n="services.s8i3"></li>
+                  <li data-i18n="services.s8i4"></li>
+                </ul>
+                <a href="#contact" class="mt-4 inline-block cursor-pointer text-sm font-semibold text-brand-cta underline-offset-2 hover:underline" data-i18n="services.order"></a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="testimonials" class="section-textured bg-slate-50 py-20 md:py-28" aria-labelledby="testimonials-heading">
+        <div class="mx-auto max-w-7xl px-4 md:px-8">
+          <h2 id="testimonials-heading" class="reveal-on-scroll font-display text-3xl font-bold text-brand-navy md:text-4xl" data-i18n="testimonials.title">
+            Client feedback
+          </h2>
+          <div class="testimonial-viewport reveal-on-scroll relative mt-10">
+            <div id="testimonial-track">
+              <figure class="testimonial-card px-2 md:px-4">
+                <blockquote class="rounded-2xl border border-slate-200 bg-white p-8 shadow-sm">
+                  <p class="text-lg italic text-slate-700" data-i18n="testimonials.t1Quote"></p>
+                  <figcaption class="mt-6 border-t border-slate-100 pt-4">
+                    <cite class="not-italic font-semibold text-brand-navy" data-i18n="testimonials.t1Name"></cite>
+                    <p class="text-sm text-slate-500" data-i18n="testimonials.t1Role"></p>
+                  </figcaption>
+                </blockquote>
+              </figure>
+              <figure class="testimonial-card px-2 md:px-4">
+                <blockquote class="rounded-2xl border border-slate-200 bg-white p-8 shadow-sm">
+                  <p class="text-lg italic text-slate-700" data-i18n="testimonials.t2Quote"></p>
+                  <figcaption class="mt-6 border-t border-slate-100 pt-4">
+                    <cite class="not-italic font-semibold text-brand-navy" data-i18n="testimonials.t2Name"></cite>
+                    <p class="text-sm text-slate-500" data-i18n="testimonials.t2Role"></p>
+                  </figcaption>
+                </blockquote>
+              </figure>
+              <figure class="testimonial-card px-2 md:px-4">
+                <blockquote class="rounded-2xl border border-slate-200 bg-white p-8 shadow-sm">
+                  <p class="text-lg italic text-slate-700" data-i18n="testimonials.t3Quote"></p>
+                  <figcaption class="mt-6 border-t border-slate-100 pt-4">
+                    <cite class="not-italic font-semibold text-brand-navy" data-i18n="testimonials.t3Name"></cite>
+                    <p class="text-sm text-slate-500" data-i18n="testimonials.t3Role"></p>
+                  </figcaption>
+                </blockquote>
+              </figure>
+            </div>
+            <div id="testimonial-dots" class="testimonial-dots"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="faq" class="border-t border-slate-200 bg-white py-20 md:py-28" aria-labelledby="faq-heading">
+        <div class="mx-auto max-w-3xl px-4 md:px-8">
+          <h2 id="faq-heading" class="reveal-on-scroll font-display text-3xl font-bold text-brand-navy md:text-4xl" data-i18n="faq.title">FAQ</h2>
+          <p class="reveal-on-scroll mt-4 text-slate-600" data-i18n="faq.intro"></p>
+          <div class="reveal-on-scroll mt-10 space-y-0">
+            <div class="faq-item">
+              <button type="button" class="faq-question w-full text-left" aria-expanded="false">
+                <span data-i18n="faq.q1"></span>
+              </button>
+              <div class="faq-answer text-slate-600">
+                <p data-i18n="faq.a1"></p>
+                <a href="#contact" class="mt-3 inline-block cursor-pointer text-sm font-semibold text-brand-cta" data-i18n="faq.cta"></a>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button type="button" class="faq-question w-full text-left" aria-expanded="false">
+                <span data-i18n="faq.q2"></span>
+              </button>
+              <div class="faq-answer text-slate-600">
+                <p data-i18n="faq.a2"></p>
+                <a href="#contact" class="mt-3 inline-block cursor-pointer text-sm font-semibold text-brand-cta" data-i18n="faq.cta"></a>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button type="button" class="faq-question w-full text-left" aria-expanded="false">
+                <span data-i18n="faq.q3"></span>
+              </button>
+              <div class="faq-answer text-slate-600">
+                <p data-i18n="faq.a3"></p>
+                <a href="#contact" class="mt-3 inline-block cursor-pointer text-sm font-semibold text-brand-cta" data-i18n="faq.cta"></a>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button type="button" class="faq-question w-full text-left" aria-expanded="false">
+                <span data-i18n="faq.q4"></span>
+              </button>
+              <div class="faq-answer text-slate-600">
+                <p data-i18n="faq.a4"></p>
+                <a href="#contact" class="mt-3 inline-block cursor-pointer text-sm font-semibold text-brand-cta" data-i18n="faq.cta"></a>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button type="button" class="faq-question w-full text-left" aria-expanded="false">
+                <span data-i18n="faq.q5"></span>
+              </button>
+              <div class="faq-answer text-slate-600">
+                <p data-i18n="faq.a5"></p>
+                <a href="#contact" class="mt-3 inline-block cursor-pointer text-sm font-semibold text-brand-cta" data-i18n="faq.cta"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="blog" class="bg-slate-50 py-20 md:py-28" aria-labelledby="blog-heading">
+        <div class="mx-auto max-w-7xl px-4 md:px-8">
+          <h2 id="blog-heading" class="reveal-on-scroll font-display text-3xl font-bold text-brand-navy md:text-4xl" data-i18n="blog.title">Blog</h2>
+          <p class="reveal-on-scroll mt-3 text-lg text-slate-600" data-i18n="blog.subtitle"></p>
+          <div class="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            <article class="reveal-on-scroll flex flex-col rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition-shadow duration-200 hover:shadow-md">
+              <h3 class="font-display text-lg font-semibold text-brand-navy" data-i18n="blog.p226Title"></h3>
+              <p class="mt-2 flex-1 text-sm text-slate-600" data-i18n="blog.p226Excerpt"></p>
+              <a href="blog/amazon-brand-registry.html" class="mt-4 cursor-pointer text-sm font-semibold text-brand-cta" data-i18n="blog.readMore"></a>
+            </article>
+            <article class="reveal-on-scroll flex flex-col rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition-shadow duration-200 hover:shadow-md">
+              <h3 class="font-display text-lg font-semibold text-brand-navy" data-i18n="blog.p225Title"></h3>
+              <p class="mt-2 flex-1 text-sm text-slate-600" data-i18n="blog.p225Excerpt"></p>
+              <a href="blog/uspto-post-registration-audit.html" class="mt-4 cursor-pointer text-sm font-semibold text-brand-cta" data-i18n="blog.readMore"></a>
+            </article>
+            <article class="reveal-on-scroll flex flex-col rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition-shadow duration-200 hover:shadow-md">
+              <h3 class="font-display text-lg font-semibold text-brand-navy" data-i18n="blog.p207Title"></h3>
+              <p class="mt-2 flex-1 text-sm text-slate-600" data-i18n="blog.p207Excerpt"></p>
+              <a href="blog/trademark-modernization-act.html" class="mt-4 cursor-pointer text-sm font-semibold text-brand-cta" data-i18n="blog.readMore"></a>
+            </article>
+            <article class="reveal-on-scroll flex flex-col rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition-shadow duration-200 hover:shadow-md">
+              <h3 class="font-display text-lg font-semibold text-brand-navy" data-i18n="blog.p196Title"></h3>
+              <p class="mt-2 flex-1 text-sm text-slate-600" data-i18n="blog.p196Excerpt"></p>
+              <a href="blog/ukrainians-register-us.html" class="mt-4 cursor-pointer text-sm font-semibold text-brand-cta" data-i18n="blog.readMore"></a>
+            </article>
+            <article class="reveal-on-scroll flex flex-col rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition-shadow duration-200 hover:shadow-md">
+              <h3 class="font-display text-lg font-semibold text-brand-navy" data-i18n="blog.p210Title"></h3>
+              <p class="mt-2 flex-1 text-sm text-slate-600" data-i18n="blog.p210Excerpt"></p>
+              <a href="blog/new-us-trademark-law.html" class="mt-4 cursor-pointer text-sm font-semibold text-brand-cta" data-i18n="blog.readMore"></a>
+            </article>
+            <article class="reveal-on-scroll flex flex-col rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition-shadow duration-200 hover:shadow-md">
+              <h3 class="font-display text-lg font-semibold text-brand-navy" data-i18n="blog.p209Title"></h3>
+              <p class="mt-2 flex-1 text-sm text-slate-600" data-i18n="blog.p209Excerpt"></p>
+              <a href="blog/uspto-identity-verification.html" class="mt-4 cursor-pointer text-sm font-semibold text-brand-cta" data-i18n="blog.readMore"></a>
+            </article>
+            <article class="reveal-on-scroll flex flex-col rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition-shadow duration-200 hover:shadow-md sm:col-span-2 lg:col-span-1">
+              <h3 class="font-display text-lg font-semibold text-brand-navy" data-i18n="blog.p208Title"></h3>
+              <p class="mt-2 flex-1 text-sm text-slate-600" data-i18n="blog.p208Excerpt"></p>
+              <a href="blog/electronic-registration-certificates.html" class="mt-4 cursor-pointer text-sm font-semibold text-brand-cta" data-i18n="blog.readMore"></a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="border-t border-slate-200 bg-white py-20 md:py-28" aria-labelledby="contact-heading">
+        <div class="mx-auto max-w-7xl px-4 md:px-8">
+          <h2 id="contact-heading" class="reveal-on-scroll font-display text-3xl font-bold text-brand-navy md:text-4xl" data-i18n="contact.title">Contacts</h2>
+          <p class="reveal-on-scroll mt-3 text-lg text-slate-600" data-i18n="contact.subtitle"></p>
+          <div class="mt-12 grid gap-10 lg:grid-cols-2">
+            <div class="reveal-on-scroll space-y-8">
+              <div class="rounded-2xl border border-slate-200 bg-slate-50 p-6">
+                <h3 class="font-display text-xl font-semibold text-brand-navy" data-i18n="contact.kyivTitle"></h3>
+                <p class="mt-2 text-slate-600">
+                  <a href="tel:+380442723369" class="cursor-pointer font-medium text-brand-navy hover:text-brand-cta">+38 (044) 272 3369</a>
+                </p>
+                <p class="text-sm text-slate-500" data-i18n="contact.hoursLocal"></p>
+              </div>
+              <div class="rounded-2xl border border-slate-200 bg-slate-50 p-6">
+                <h3 class="font-display text-xl font-semibold text-brand-navy" data-i18n="contact.usaTitle"></h3>
+                <p class="mt-2 text-slate-600">
+                  <a href="tel:+13475125214" class="cursor-pointer font-medium text-brand-navy hover:text-brand-cta">+1 (347) 512 52 14</a>
+                </p>
+                <p class="text-sm text-slate-500" data-i18n="contact.hoursEt"></p>
+              </div>
+              <div class="rounded-2xl border border-slate-200 bg-slate-50 p-6">
+                <p class="text-sm font-semibold uppercase tracking-wide text-slate-500" data-i18n="contact.emailLabel"></p>
+                <a href="mailto:info@brandspace.legal" class="mt-1 cursor-pointer text-lg font-medium text-brand-cta hover:underline">info@brandspace.legal</a>
+                <p class="mt-4 text-sm text-slate-500" data-i18n="contact.mapNote"></p>
+              </div>
+            </div>
+            <div class="reveal-on-scroll">
+              <h3 class="font-display text-xl font-semibold text-brand-navy" data-i18n="contact.formTitle"></h3>
+              <p class="mt-2 text-sm text-slate-500" data-i18n="contact.formNote"></p>
+              <form id="contact-form" class="contact-form mt-6 space-y-4" action="#" method="post">
+                <div>
+                  <label for="cf-name" class="block text-sm font-medium text-slate-700" data-i18n="contact.formName"></label>
+                  <input
+                    id="cf-name"
+                    name="name"
+                    type="text"
+                    autocomplete="name"
+                    class="mt-1 w-full rounded-lg border border-slate-300 bg-white px-4 py-3 text-slate-900"
+                    data-i18n-placeholder="contact.formName"
+                  />
+                </div>
+                <div>
+                  <label for="cf-email" class="block text-sm font-medium text-slate-700" data-i18n="contact.formEmail"></label>
+                  <input
+                    id="cf-email"
+                    name="email"
+                    type="email"
+                    autocomplete="email"
+                    required
+                    class="mt-1 w-full rounded-lg border border-slate-300 bg-white px-4 py-3 text-slate-900"
+                    data-i18n-placeholder="contact.formEmail"
+                  />
+                </div>
+                <div>
+                  <label for="cf-phone" class="block text-sm font-medium text-slate-700" data-i18n="contact.formPhone"></label>
+                  <input
+                    id="cf-phone"
+                    name="phone"
+                    type="tel"
+                    autocomplete="tel"
+                    class="mt-1 w-full rounded-lg border border-slate-300 bg-white px-4 py-3 text-slate-900"
+                    data-i18n-placeholder="contact.formPhone"
+                  />
+                </div>
+                <div>
+                  <label for="cf-msg" class="block text-sm font-medium text-slate-700" data-i18n="contact.formMessage"></label>
+                  <textarea
+                    id="cf-msg"
+                    name="message"
+                    rows="4"
+                    class="mt-1 w-full rounded-lg border border-slate-300 bg-white px-4 py-3 text-slate-900"
+                    data-i18n-placeholder="contact.formMessage"
+                  ></textarea>
+                </div>
+                <button type="submit" class="w-full cursor-pointer rounded-lg bg-brand-navy px-6 py-3 text-sm font-semibold text-white transition-colors duration-200 hover:bg-brand-blue" data-i18n="contact.formSubmit">
+                  Send request
+                </button>
+              </form>
+              <p id="form-success" role="status" data-i18n="contact.formSuccess"></p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="border-t border-slate-200 bg-slate-900 py-12 text-slate-300">
+      <div class="mx-auto max-w-7xl px-4 md:px-8">
+        <div class="flex flex-col gap-8 md:flex-row md:items-center md:justify-between">
+          <div>
+            <p class="font-display text-lg font-semibold text-white">Brandspace Legal</p>
+            <p class="mt-2 text-sm" data-i18n="footer.rights"></p>
+            <p class="mt-1 text-xs text-slate-500" data-i18n="footer.credit"></p>
+          </div>
+          <nav class="flex flex-wrap gap-x-6 gap-y-2 text-sm" aria-label="Footer">
+            <a href="#about" class="cursor-pointer transition-colors hover:text-white" data-i18n="nav.about"></a>
+            <a href="#services" class="cursor-pointer transition-colors hover:text-white" data-i18n="nav.services"></a>
+            <a href="#testimonials" class="cursor-pointer transition-colors hover:text-white" data-i18n="nav.feedback"></a>
+            <a href="#faq" class="cursor-pointer transition-colors hover:text-white" data-i18n="nav.faq"></a>
+            <a href="#contact" class="cursor-pointer transition-colors hover:text-white" data-i18n="nav.contacts"></a>
+            <a href="#blog" class="cursor-pointer transition-colors hover:text-white" data-i18n="nav.blog"></a>
+          </nav>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      window.__TAWK_PROPERTY_ID__ = 'YOUR_PROPERTY_ID';
+      window.__TAWK_WIDGET_ID__ = 'YOUR_WIDGET_ID';
+    </script>
+    <script src="js/tawk.js"></script>
+
+    <script src="js/i18n.js" data-base=""></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
