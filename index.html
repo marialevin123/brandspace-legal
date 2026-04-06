@@ -3,6 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Security headers -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+    <meta http-equiv="X-Frame-Options" content="DENY" />
+    <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin" />
+    <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=()" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.tailwindcss.com https://embed.tawk.to; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; frame-src https://embed.tawk.to;" />
+
     <title data-i18n="meta.title">Brandspace Legal — Trademark registration in the USA</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -626,6 +633,11 @@
             <a href="#contact" class="cursor-pointer transition-colors hover:text-white" data-i18n="nav.contacts"></a>
             <a href="#blog" class="cursor-pointer transition-colors hover:text-white" data-i18n="nav.blog"></a>
           </nav>
+          <div class="mt-4 flex flex-wrap gap-x-4 gap-y-1 text-xs text-slate-500 md:mt-0">
+            <a href="legal/privacy-policy.html" class="cursor-pointer transition-colors hover:text-white">Privacy Policy</a>
+            <span>&middot;</span>
+            <a href="legal/terms-of-service.html" class="cursor-pointer transition-colors hover:text-white">Terms of Service</a>
+          </div>
         </div>
       </div>
     </footer>
